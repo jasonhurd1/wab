@@ -5,6 +5,8 @@ A Javascript-based weight and balance calculator for general aviation aircraft.
 
 This app is intended for our club to contain within an iFrame on our Squarespace website
 
+Full list of commits on [jasonhurd1/aaf-wab](https://github.com/jasonhurd1/aaf-wab)
+
 [View the live demo!](https://aaf.jasonhurd.com)
 
 ## What is Weight and Balance?
