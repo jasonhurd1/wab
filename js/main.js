@@ -62,14 +62,15 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
       picker.on('change', function () {
         update(aircraftList[this.value]);
       });
-    }
+   } 
+
 
     function update(aircraft) {
       aircraft = new Aircraft(aircraft);
 
       // Set the titles
-      d3.select('title').text(aircraft.name + ': Weight and Balance');
-      d3.select('#aircraft').text(aircraft.name + ' ' + aircraft.code);
+      d3.select('title').text(aircraft.code + ': Weight and Balance');
+      d3.select('#aircraft').text(aircraft.name + ': ' + aircraft.code);
 
       // DATA: Select the table and apply the data.
       var rowData = d3.select('#form').selectAll('.wabSection').data(aircraft.sections);
@@ -102,6 +103,18 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
           .select('input')
             .attr('name', function (section) {
               return section.name;
+            })
+            .attr('disabled', function (section) {
+              if (typeof section.arm === 'number') {
+                return null;
+              } else if (section.arm !== null) {
+                if (section.arm.configurable) {
+                  return null;
+                } else {
+                  return 'disabled';
+                }
+              }
+              return null;
             })
             .attr('placeholder', function (section) {
               return 'Max ' + section.max;
@@ -159,7 +172,7 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
           redrawChart(aircraft);
         });
 
-      // EXIT: remoe the old elements
+      // EXIT: remove the old elements
       rowData.exit().remove();
 
       redrawChart(aircraft);
@@ -205,7 +218,7 @@ function (bootstrap, d3, nv, Aircraft, ich, template, list) {
 
     function data(aircraft) {
       var wab = aircraft.WeightAndBalance(),
-          color = wab.success ? 'green' : 'red';
+          color = wab.success ? 'black' : 'red';
       return [
         {
           values: aircraft.categories.normal,

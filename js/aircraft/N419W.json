@@ -1,0 +1,80 @@
+{
+  "name": "Piper Archer III",
+  "code": "N419W",
+  "categories": {
+    "normal": [
+      {"x": 82, "y": 1200},
+      {"x": 82, "y": 2040},
+      {"x": 83, "y": 2130},
+      {"x": 85, "y": 2295},
+      {"x": 87, "y": 2450},
+      {"x": 88.5, "y": 2550},
+      {"x": 93, "y": 2550},
+      {"x": 93, "y": 1200}
+    ],
+    "utility": [
+      {"x": 82, "y": 1200},
+      {"x": 82, "y": 2040},
+      {"x": 83, "y": 2130},
+      {"x": 93, "y": 2130},
+      {"x": 93, "y": 1200}
+    ],
+    "acrobatic": null
+  },
+  "sections": [
+    {
+      "name": "empty",
+      "title": "Basic Empty Weight",
+      "unit": "lbs",
+      "quantity": 1689.55,
+      "arm": { 
+        "value": 86.6,
+        "configurable": false
+        },
+      "moment": 146312.01,
+      "max": 2550
+    },
+    {
+      "name": "fuel",
+      "title": "Fuel (Max: 48)",
+      "unit": "gal",
+      "quantity": 34,
+      "arm": 95,
+      "moment": null,
+      "max": 48
+    },
+    {
+      "name": "front",
+      "title": "Front Passengers",
+      "unit": "lbs",
+      "quantity": 0,
+      "arm": 80.5,
+      "moment": null
+    },
+    {
+      "name": "aft",
+      "title": "Aft Passengers",
+      "unit": "lbs",
+      "quantity": 0,
+      "arm": 118.1,
+      "moment": null
+    },
+    {
+      "name": "baggage",
+      "title": "Baggage Compartment",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 142.8,
+      "moment": null,
+      "max": 200
+    },
+    {
+      "name": "taxi",
+      "title": "Taxi & Runup",
+      "unit": "lbs",
+      "quantity": -8,
+      "arm": 95,
+      "moment": null
+    }
+  ]
+}

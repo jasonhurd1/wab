@@ -2,7 +2,11 @@
 /********************
  * HTML CSS
  */
-
+.nv-point {
+    fill-opacity: 1!important;
+    stroke-opacity: 1!important;
+    stroke-width: 5px!important;
+}
 
 .chartWrap {
   margin: 0;

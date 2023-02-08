@@ -80,6 +80,7 @@ define([], function () {
 
   Aircraft.prototype.WeightAndBalance = function () {
     var points = [],
+        end_point = [],
         section,
         iWeight,
         iArm,
@@ -113,6 +114,11 @@ define([], function () {
         label: section.title
       });
     }
+    end_point.push({
+        x: moment_so_far / weight_so_far,
+        y: weight_so_far,
+        label: 'Weight and Balance'
+      });
 
     var loading = points[points.length-1];
         loading = { weight: loading.y, cg: loading.x };
@@ -124,7 +130,7 @@ define([], function () {
 
     return {
       success: success,
-      points: points,
+      points: end_point,
       loading: loading
     };
   };

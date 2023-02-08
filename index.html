@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
+  <div style="max-width:1400px; margin:0 auto;">
   <head>
     <title>Aircraft Weight and Balance</title>
     <link href="css/vendor/nv.d3.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Quantico:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
     <script data-main="js/main" src="js/vendor/require/require.js"></script>
@@ -22,52 +22,91 @@
         padding-top: 30px;
         padding-bottom: 20px;
         margin: 0;
-        width: 100%;
+        width: 95%;
+        font-family: 'Lucida Sans Unicode', sans-serif;
       }
 
       .bs-header h2 {
-        padding: 5px;
-        background-color: black;
+        padding-top: 8px;
         color: white;
-        font-family: 'Quantico', sans-serif;
+        font-family: 'Lucida Sans Unicode', sans-serif;
+      }
+
+      .bs-header h3 {
+        padding: 5px;
+        font-family: 'Lucida Sans Unicode', sans-serif;
       }
       
-      .bs-header h2, .bs-header h1 {
+      .bs-header h1, .bs-header h2 , .bs-header h3 {
         padding-left: 20px;
         margin-top: 0;
+      }
+
+      .form-font-size {
+        font-size: 18px;
+      }
+
+      .resize-input {
+        height: 30px !important;
+        padding: 5px 10px !important;
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+        border-radius: 3px !important;
       }
 
       #aircraftPicker {
         margin-left: 10px;
         margin-right: 10px;
         width: 40%;
+        font-size: 15px;
       }
 
       #form {
         width: 40%;
         float: left;
+        font-size: 18px;
       }
+
       #chart {
         float: right;
         margin: 5px;
         width: 58%;
         height: 400px;
+        font-size: 16px;
       }
 
-      @media (max-width: 768px) {
+      @media (max-width: 1175px) {
         #aircraftPicker {
-          width: 100%;
+          width: 95%;
+          height: 46px;
+          padding: 10px 16px;
+          font-size: 15px;
+          line-height: 1.3333333;
+          border-radius: 6px;
         }
         #form { 
           float: none;
-          width: 100%; 
+          width: 95%; 
+          font-size: 24px;
         }
         #chart { 
           float: none; 
-          width: 100%;
+          width: 95%;
           margin: 5px;
           margin-left: 15px;
+          font-size: 16px;
         }
+        .resize-input {
+          height: 46px !important;
+          padding: 10px 16px !important;
+          font-size: 18px !important;
+          line-height: 1.3333333 !important;
+          border-radius: 6px !important;
+        }
+        .form-font-size {
+          font-size: 20px;
+        }
+
       }
 
     </style>
@@ -76,23 +115,26 @@
     <header>
       <div class="bs-header">
         <h1>Weight and Balance</h1>
-        <h2 id="aircraft"></h2>
-        <select id="aircraftPicker" class="form-control">
-        </select>
+        <nav class="navbar navbar-inverse">
+          <h2 id="aircraft"></h2>
+        </nav>
+        <h3>Select Aircraft:
+          <select id="aircraftPicker" class="form-control"></select>
+        </h3>
       </div>
     </header>
     <div id="content">
       <div id="chart">
         <svg></svg>
       </div>
-      <img id="drawn" />
-      <div id="form" class="container">
+      <div id="form" class="chart-width container">
         <div class="row wabheader">
           <div class="col-xs-4">Section</div>
-          <div class="col-xs-5">Quantity</div>
+          <div class="col-xs-5">Weight</div>
           <div class="col-xs-3">Arm (in)</div>
         </div>
       </div>
     </div>
   </body>
+  </div>
 </html>
