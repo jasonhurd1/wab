@@ -1,13 +1,13 @@
 {
   "name": "Cessna Skyhawk",
-  "code": "C172M",
+  "code": "N20421",
   "categories": {
     "normal": [
       {"x": 35, "y": 1500 },
       {"x": 35, "y": 1950 },
       {"x": 38.5, "y": 2300 },
-      {"x": 47, "y": 2300 },
-      {"x": 47,    "y": 1500 },
+      {"x": 47.3, "y": 2300 },
+      {"x": 47.3,    "y": 1500 },
       {"x": 35, "y": 1500 }
     ],
     "utility": [
@@ -24,12 +24,12 @@
       "name": "empty",
       "title": "Licensed Empty Weight",
       "unit": "lbs",
-      "quantity": 1366,
+      "quantity": 1433,
       "arm": {
-        "value": 39.38,
-        "configurable": true
+        "value": 38.3,
+        "configurable": false
       },
-      "moment": 1259000,
+      "moment": 54883.9,
       "max": 2300
     },
     {
@@ -37,13 +37,13 @@
       "title": "Oil",
       "unit": "qts",
       "quantity": 8,
-      "arm": -14,
+      "arm": -13,
       "moment": null,
       "max": 8
     },
     {
       "name": "fuel",
-      "title": "Fuel (Max 48 Extended Tanks)",
+      "title": "Fuel (Max 38 Gal)",
       "unit": "gal",
       "quantity": 38,
       "arm": 48,
@@ -55,9 +55,8 @@
       "title": "Front Passengers",
       "unit": "lbs",
       "quantity": 340,
-      "arm": 37,
-      "moment": null,
-      "max": 400
+      "arm": 40,
+      "moment": null
     },
     {
       "name": "aft",
@@ -65,8 +64,7 @@
       "unit": "lbs",
       "quantity": null,
       "arm": 73,
-      "moment": null,
-      "max": 400
+      "moment": null
     },
     {
       "name": "baggage",
