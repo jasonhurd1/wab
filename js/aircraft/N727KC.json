@@ -11,8 +11,7 @@
       {"x": 50.1, "y": 2900 },
       {"x": 50.1, "y": 2000 }
     ],
-    "utility": [
-    ],
+    "utility": null,
     "acrobatic": null
   },
   "sections": [
@@ -25,7 +24,7 @@
         "value": 45.6,
         "configurable": false
       },
-      "moment": null,
+      "moment": 876888,
       "max": 2900
     },
     {
