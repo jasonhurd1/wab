@@ -1,0 +1,83 @@
+{
+  "name": "Mooney M20J",
+  "code": "N727KC",
+  "categories": {
+    "normal": [
+      {"x": 41, "y": 2000 },
+      {"x": 41, "y": 2250 },
+      {"x": 41.8, "y": 2470 },
+      {"x": 43.8, "y": 2740 },
+      {"x": 45, "y": 2900 },
+      {"x": 50.1, "y": 2900 },
+      {"x": 50.1, "y": 2000 }
+    ],
+    "utility": null,
+    "acrobatic": null
+  },
+  "sections": [
+    {
+      "name": "empty",
+      "title": "Licensed Empty Weight",
+      "unit": "lbs",
+      "quantity": 1923,
+      "arm": {
+        "value": 45.6,
+        "configurable": false
+      },
+      "moment": 876888,
+      "max": 2900
+    },
+    {
+      "name": "oil",
+      "title": "Oil",
+      "unit": "qts",
+      "quantity": 8,
+      "arm": -13,
+      "moment": null,
+      "max": 8
+    },
+    {
+      "name": "fuel",
+      "title": "Fuel (Max 64 Gal)",
+      "unit": "gal",
+      "quantity": 40,
+      "arm": 48.43,
+      "moment": null,
+      "max": 64
+    },
+    {
+      "name": "front",
+      "title": "Front Passengers",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 37,
+      "moment": null
+    },
+    {
+      "name": "aft",
+      "title": "Rear Passengers",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 70.7,
+      "moment": null
+    },
+    {
+      "name": "baggage",
+      "title": "Baggage Area",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 95.5,
+      "moment": null,
+      "max": 120
+    }
+    {
+      "name": "hatrack",
+      "title": "Hat Rack",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 119,
+      "moment": null,
+      "max": 10
+    }
+  ]
+}
