@@ -12,7 +12,8 @@
       {"x": 50.1,    "y": 2000 },
       {"x": 41, "y": 2000 }
     ],
-    "utility": null,
+    "utility": [
+    ],
     "acrobatic": null
   },
   "sections": [
