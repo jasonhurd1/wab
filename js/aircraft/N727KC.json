@@ -3,20 +3,16 @@
   "code": "N727KC",
   "categories": {
     "normal": [
-      {"x": 35, "y": 1500 },
-      {"x": 35, "y": 1950 },
-      {"x": 38.5, "y": 2300 },
-      {"x": 47.3, "y": 2300 },
-      {"x": 47.3,    "y": 1500 },
-      {"x": 35, "y": 1500 }
+      {"x": 41.0, "y": 2000 },
+      {"x": 41.0, "y": 2250 },
+      {"x": 41.8, "y": 2470 },
+      {"x": 43.8, "y": 2740 },
+      {"x": 45.0, "y": 2900 },
+      {"x": 50.1, "y": 2900 },
+      {"x": 50.1,    "y": 2000 },
+      {"x": 41.0, "y": 2000 }
     ],
-    "utility": [
-      { "x": 35, "y": 1500 },
-      { "x": 35, "y": 1950 },
-      { "x": 35.50, "y": 2000 },
-      { "x": 40.5, "y": 2000 },
-      { "x": 40.5, "y": 1500 }
-    ],
+    "utility": null,
     "acrobatic": null
   },
   "sections": [
@@ -24,13 +20,13 @@
       "name": "empty",
       "title": "Licensed Empty Weight",
       "unit": "lbs",
-      "quantity": 1429.5,
+      "quantity": 1923,
       "arm": {
-        "value": 38.04,
+        "value": 45.6,
         "configurable": false
       },
-      "moment": 54378.18,
-      "max": 2300
+      "moment": 87688.8,
+      "max": 2900
     },
     {
       "name": "oil",
@@ -43,19 +39,19 @@
     },
     {
       "name": "fuel",
-      "title": "Fuel (Max 38 Gal)",
+      "title": "Fuel (Max 64 Gal)",
       "unit": "gal",
-      "quantity": 38,
-      "arm": 48,
+      "quantity": 40,
+      "arm": 48.43,
       "moment": null,
-      "max": 38
+      "max": 64
     },
     {
       "name": "front",
       "title": "Front Passengers",
       "unit": "lbs",
-      "quantity": 340,
-      "arm": 40,
+      "quantity": null,
+      "arm": 37,
       "moment": null
     },
     {
@@ -63,7 +59,7 @@
       "title": "Rear Passengers",
       "unit": "lbs",
       "quantity": null,
-      "arm": 73,
+      "arm": 70.7,
       "moment": null
     },
     {
@@ -71,9 +67,18 @@
       "title": "Baggage Area",
       "unit": "lbs",
       "quantity": null,
-      "arm": 95,
+      "arm": 95.5,
       "moment": null,
       "max": 120
+    }
+    {
+      "name": "hatrack",
+      "title": "Hat Rack",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 119,
+      "moment": null,
+      "max": 10
     }
   ]
 }
