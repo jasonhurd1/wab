@@ -79,6 +79,14 @@
       "arm": 119,
       "moment": null,
       "max": 10
+    },
+    {
+      "name": "taxi",
+      "title": "Taxi & Runup",
+      "unit": "lbs",
+      "quantity": -8,
+      "arm": 95,
+      "moment": null
     }
   ]
 }
