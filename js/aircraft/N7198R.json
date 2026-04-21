@@ -43,7 +43,7 @@
     },
     {
       "name": "fuel",
-      "title": "Fuel (Max 38G)",
+      "title": "Fuel (Max 48G)",
       "unit": "gal",
       "quantity": 34,
       "arm": 95,

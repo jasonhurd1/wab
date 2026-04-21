@@ -44,7 +44,7 @@
       "name": "fuel",
       "title": "Fuel (Max 22.5G)",
       "unit": "gal",
-      "quantity": 15,
+      "quantity": 14,
       "arm": 40,
       "moment": null,
       "max": 22.5
