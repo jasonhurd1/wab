@@ -28,7 +28,7 @@
     },
     {
       "name": "oil",
-      "title": "Oil (7qt included in empty weight)",
+      "title": "Oil (7qt included)",
       "unit": "qt",
       "quantity": 0,
       "arm": -13.5,
