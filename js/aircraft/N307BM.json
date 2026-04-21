@@ -23,12 +23,12 @@
       "name": "empty",
       "title": "Licensed Empty Weight",
       "unit": "lbs",
-      "quantity": 1429.5,
+      "quantity": 1522.1,
       "arm": {
-        "value": 38.04,
+        "value": 41.31,
         "configurable": false
       },
-      "moment": 543781.8,
+      "moment": 62870.95,
       "max": 2300
     },
     {
@@ -51,10 +51,13 @@
     },
     {
       "name": "front",
-      "title": "Front Passengers",
+      "title": "Front Passengers (arm 34-41)",
       "unit": "lbs",
-      "quantity": 340,
-      "arm": 40,
+      "quantity": 200,
+      "arm": {
+        "value": 37,
+        "configurable": true
+      },
       "moment": null
     },
     {
@@ -79,7 +82,7 @@
       "title": "Taxi & Runup",
       "unit": "lbs",
       "quantity": -8,
-      "arm": 95,
+      "arm": 48,
       "moment": null
     }
   ]

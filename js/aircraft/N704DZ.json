@@ -23,7 +23,7 @@
         "value": 34.01,
         "configurable": false
       },
-      "moment": 382351.5,
+      "moment": 38235.15,
       "max": 1600
     },
     {
@@ -31,13 +31,13 @@
       "title": "Fuel (22.5 Gal)",
       "unit": "gal",
       "quantity": 22.5,
-      "arm": 42.2,
+      "arm": 40,
       "moment": null,
       "max": 22.5
     },
     {
       "name": "front",
-      "title": "Front Passengers 33-41in",
+      "title": "Front Passengers (arm 33-41)",
       "unit": "lbs",
       "quantity": 200,
       "arm": {
@@ -48,19 +48,19 @@
     },
     {
       "name": "baggage",
-      "title": "Baggage",
+      "title": "Baggage 1",
       "unit": "lbs",
       "quantity": null,
-      "arm": 63,
+      "arm": 64,
       "moment": null,
       "max": 120
     },
     {
       "name": "baggage-aft",
-      "title": "Baggage (aft)",
+      "title": "Baggage 2 (aft)",
       "unit": "lbs",
       "quantity": null,
-      "arm": 85,
+      "arm": 84,
       "moment": null,
       "max": 40
     },

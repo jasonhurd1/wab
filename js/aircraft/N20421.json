@@ -51,10 +51,13 @@
     },
     {
       "name": "front",
-      "title": "Front Passengers",
+      "title": "Front Passengers (arm 34-41)",
       "unit": "lbs",
-      "quantity": 340,
-      "arm": 40,
+      "quantity": 200,
+      "arm": {
+        "value": 37,
+        "configurable": true
+      },
       "moment": null
     },
     {
@@ -79,7 +82,7 @@
       "title": "Taxi & Runup",
       "unit": "lbs",
       "quantity": -8,
-      "arm": 95,
+      "arm": 48,
       "moment": null
     }
   ]

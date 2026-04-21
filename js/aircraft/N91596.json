@@ -55,7 +55,7 @@
       "unit": "lbs",
       "quantity": 200,
       "arm": {
-        "value": 40,
+        "value": 37,
         "configurable": true
       },
       "moment": null
@@ -82,7 +82,7 @@
       "title": "Taxi & Runup",
       "unit": "lbs",
       "quantity": -8,
-      "arm": 95,
+      "arm": 48,
       "moment": null
     }
   ]
