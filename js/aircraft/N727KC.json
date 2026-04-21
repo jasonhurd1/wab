@@ -29,15 +29,6 @@
       "max": 2900
     },
     {
-      "name": "oil",
-      "title": "Oil (8qt included)",
-      "unit": "qt",
-      "quantity": 0,
-      "arm": 11.5,
-      "moment": null,
-      "max": 0
-    },
-    {
       "name": "fuel",
       "title": "Fuel (Max 64G)",
       "unit": "gal",
