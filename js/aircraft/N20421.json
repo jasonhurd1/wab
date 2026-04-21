@@ -1,17 +1,21 @@
 {
-  "name": "Mooney M20J",
-  "code": "N727KC",
+  "name": "Cessna Skyhawk",
+  "code": "N20421",
   "categories": {
     "normal": [
-      {"x": 41, "y": 2000 },
-      {"x": 41, "y": 2250 },
-      {"x": 41.8, "y": 2470 },
-      {"x": 43.8, "y": 2740 },
-      {"x": 45, "y": 2900 },
-      {"x": 50.1, "y": 2900 },
-      {"x": 50.1, "y": 2000 }
+      {"x": 35, "y": 1500 },
+      {"x": 35, "y": 1950 },
+      {"x": 38.5, "y": 2300 },
+      {"x": 47.3, "y": 2300 },
+      {"x": 47.3, "y": 1500 }
     ],
-    "utility": null,
+    "utility": [
+      { "x": 35, "y": 1500 },
+      { "x": 35, "y": 1950 },
+      { "x": 35.50, "y": 2000 },
+      { "x": 40.5, "y": 2000 },
+      { "x": 40.5, "y": 1500 }
+    ],
     "acrobatic": null
   },
   "sections": [
@@ -19,13 +23,13 @@
       "name": "empty",
       "title": "Licensed Empty Weight",
       "unit": "lbs",
-      "quantity": 1923,
+      "quantity": 1433,
       "arm": {
-        "value": 45.6,
+        "value": 38.3,
         "configurable": false
       },
-      "moment": 876888,
-      "max": 2900
+      "moment": 548839,
+      "max": 2300
     },
     {
       "name": "oil",
@@ -38,19 +42,19 @@
     },
     {
       "name": "fuel",
-      "title": "Fuel (Max 64 Gal)",
+      "title": "Fuel (Max 38 Gal)",
       "unit": "gal",
-      "quantity": 40,
-      "arm": 48.43,
+      "quantity": 38,
+      "arm": 48,
       "moment": null,
-      "max": 64
+      "max": 38
     },
     {
       "name": "front",
       "title": "Front Passengers",
       "unit": "lbs",
-      "quantity": null,
-      "arm": 37,
+      "quantity": 340,
+      "arm": 40,
       "moment": null
     },
     {
@@ -58,7 +62,7 @@
       "title": "Rear Passengers",
       "unit": "lbs",
       "quantity": null,
-      "arm": 70.7,
+      "arm": 73,
       "moment": null
     },
     {
@@ -66,18 +70,9 @@
       "title": "Baggage Area",
       "unit": "lbs",
       "quantity": null,
-      "arm": 95.5,
+      "arm": 95,
       "moment": null,
       "max": 120
-    },
-    {
-      "name": "hatrack",
-      "title": "Hat Rack",
-      "unit": "lbs",
-      "quantity": null,
-      "arm": 119,
-      "moment": null,
-      "max": 10
     }
   ]
 }

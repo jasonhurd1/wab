@@ -1,0 +1,67 @@
+{
+  "name": "Cessna 150M",
+  "code": "N704DZ",
+  "categories": {
+    "normal": [
+      {"x": 31.5, "y": 1100 },
+      {"x": 31.5, "y": 1280 },
+      {"x": 32.9, "y": 1600 },
+      {"x": 37.5, "y": 1600 },
+      {"x": 37.5, "y": 1100 }
+    ],
+    "utility": null,
+    "acrobatic": null
+  },
+  "sections": [
+    {
+      "name": "empty",
+      "title": "Licensed Empty Weight",
+      "unit": "lbs",
+      "quantity": 1124.35,
+      "arm": {
+        "value": 34.01,
+        "configurable": false
+      },
+      "moment": 382351.5,
+      "max": 1600
+    },
+    {
+      "name": "fuel",
+      "title": "Fuel (22.5 Gal)",
+      "unit": "gal",
+      "quantity": 22.5,
+      "arm": 42.2,
+      "moment": null,
+      "max": 22.5
+    },
+    {
+      "name": "front",
+      "title": "Front Passengers 33-41in",
+      "unit": "lbs",
+      "quantity": 340,
+      "arm": {
+        "value": 39,
+        "configurable": true
+      },
+      "moment": null
+    },
+    {
+      "name": "baggage1",
+      "title": "Baggage Area 1",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 63,
+      "moment": null,
+      "max": 120
+    },
+    {
+      "name": "baggage2",
+      "title": "Baggage Area 2 (aft)",
+      "unit": "lbs",
+      "quantity": null,
+      "arm": 85,
+      "moment": null,
+      "max": 40
+    }
+  ]
+}
