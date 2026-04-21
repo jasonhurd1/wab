@@ -37,7 +37,7 @@
     },
     {
       "name": "fuel",
-      "title": "Fuel (22.5 Gal)",
+      "title": "Fuel (22.5G)",
       "unit": "gal",
       "quantity": 15,
       "arm": 40,
