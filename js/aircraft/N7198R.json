@@ -33,6 +33,15 @@
       "max": 2150
     },
     {
+      "name": "oil",
+      "title": "Oil",
+      "unit": "qt",
+      "quantity": 6,
+      "arm": 32.5,
+      "moment": null,
+      "max": 8
+    },
+    {
       "name": "fuel",
       "title": "Fuel (Max 38 Gal)",
       "unit": "gal",

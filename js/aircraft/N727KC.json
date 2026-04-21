@@ -38,8 +38,17 @@
       "max": 2900
     },
     {
+      "name": "oil",
+      "title": "Oil (8qt included in empty weight)",
+      "unit": "qt",
+      "quantity": 0,
+      "arm": 11.5,
+      "moment": null,
+      "max": 0
+    },
+    {
       "name": "fuel",
-      "title": "Fuel (Max 64 Gal)",
+      "title": "Fuel (Max: 64)",
       "unit": "gal",
       "quantity": 40,
       "arm": 48.43,
