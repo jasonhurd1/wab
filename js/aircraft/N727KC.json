@@ -27,7 +27,7 @@
   "sections": [
     {
       "name": "empty",
-      "title": "Licensed Empty Weight",
+      "title": "Lic. Empty Weight",
       "unit": "lbs",
       "quantity": 1923,
       "arm": {
@@ -39,7 +39,7 @@
     },
     {
       "name": "oil",
-      "title": "Oil (8qt included in empty weight)",
+      "title": "Oil (8qt included)",
       "unit": "qt",
       "quantity": 0,
       "arm": 11.5,
