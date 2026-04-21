@@ -30,7 +30,7 @@
       "name": "fuel",
       "title": "Fuel (22.5 Gal)",
       "unit": "gal",
-      "quantity": 22.5,
+      "quantity": 15,
       "arm": 40,
       "moment": null,
       "max": 22.5

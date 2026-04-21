@@ -50,7 +50,7 @@
       "name": "front",
       "title": "Front Passengers",
       "unit": "lbs",
-      "quantity": null,
+      "quantity": 200,
       "arm": 37,
       "moment": null
     },
