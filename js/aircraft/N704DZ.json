@@ -39,7 +39,7 @@
       "name": "front",
       "title": "Front Passengers 33-41in",
       "unit": "lbs",
-      "quantity": 340,
+      "quantity": 200,
       "arm": {
         "value": 39,
         "configurable": true
@@ -47,8 +47,8 @@
       "moment": null
     },
     {
-      "name": "baggage1",
-      "title": "Baggage Area 1",
+      "name": "baggage",
+      "title": "Baggage",
       "unit": "lbs",
       "quantity": null,
       "arm": 63,
@@ -56,8 +56,8 @@
       "max": 120
     },
     {
-      "name": "baggage2",
-      "title": "Baggage Area 2 (aft)",
+      "name": "baggage-aft",
+      "title": "Baggage (aft)",
       "unit": "lbs",
       "quantity": null,
       "arm": 85,

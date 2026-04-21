@@ -51,10 +51,13 @@
     },
     {
       "name": "front",
-      "title": "Front Passengers",
+      "title": "Front Passengers (arm 34-41)",
       "unit": "lbs",
       "quantity": 200,
-      "arm": 40,
+      "arm": {
+        "value": 40,
+        "configurable": true
+      },
       "moment": null
     },
     {
